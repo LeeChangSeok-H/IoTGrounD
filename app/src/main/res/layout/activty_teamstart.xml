@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/teammode">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="팀명 :"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/teamname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="팀원 수 :"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/teamnum"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="팀원들의 전화번호 : "
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/team1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/team2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:textColor="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/team3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="완료"
+        android:onClick="onClick"
+        android:textColor="#FFFFFF"
+        android:background="#000000"/>
+
+</LinearLayout>

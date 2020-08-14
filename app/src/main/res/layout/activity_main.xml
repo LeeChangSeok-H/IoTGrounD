@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/solomode"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        android:background="@drawable/soloback"
+        android:text="솔로 모드"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:layout_margin="2dp"/>
+
+    <Button
+        android:id="@+id/teammode"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        android:background="@drawable/teamback"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:text="팀 모드"
+        android:layout_margin="2dp"/>
+
+    <Button
+        android:id="@+id/solorank"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        android:text="개인 랭킹"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:background="@drawable/solorank"
+        android:layout_margin="2dp"/>
+
+    <Button
+        android:id="@+id/teamrank"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        android:background="@drawable/teamrank"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:text="팀 랭킹"
+        android:layout_margin="2dp"/>
+</LinearLayout>
